@@ -1,24 +1,22 @@
-# README
+アプリケーションを作成してみよう：課題
+・bookersの作成
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+テーマ
+・読んだ本の感想を投稿するサイト
 
-Things you may want to cover:
+機能
+・読んだ本のタイトルと、その本についての感想を投稿、編集、削除できる
+・投稿、更新、削除処理の成功後サクセスメッセージを表示
+・投稿、編集時に本のタイトルと感想についてのバリデーションチェック
 
-* Ruby version
+実装画面
+・アプリケーショントップ画面
+・投稿一覧画面：投稿された本の感想を一覧表示する画面（一覧表示はIDの若い順に表示）
+・投稿詳細画面：投稿された本の感想を個別に表示する画面
+・投稿編集画面：投稿された本の感想を編集できる画面
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+その他
+・ルーティングは「resourcesメソッド」を使う
+・アプリケーショントップ画面をルートパスに設定する
+・トップ画面を「/」で表示できるようにする
+・RSpecによりテストを行う

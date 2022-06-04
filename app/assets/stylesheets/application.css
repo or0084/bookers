@@ -13,3 +13,168 @@
  *= require_tree .
  *= require_self
  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #333;
+  line-height: 18px;
+}
+
+.text-success{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  margin: 33px;
+  color: #008000;
+}
+
+a{
+  color: #666;
+  font-size: 13px;
+}
+
+
+/*ここからindex________________________________________________*/
+
+.top{
+  margin: 33px;
+
+}
+
+.top h1{
+  font-size: 26px ;
+}
+
+.top p{
+  margin: 33px;
+  font-size: 13px;
+}
+
+.top span{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.top-item{
+  margin: 0 9px;
+}
+
+.top-item2{
+  margin: 0 7px 0 0;
+}
+
+/*ここからindex________________________________________________*/
+
+.index{
+  margin: 33px;
+
+  height: 500px;
+}
+
+.index h1{
+  margin: 0px 0 17px 0;
+  font-size: 26px;
+}
+
+.index-book{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.index-item{
+  padding: 1px 1px 5px;
+}
+
+.index-item2{
+  padding: 1px 1px 5px;
+}
+
+.index-list{
+  padding: 1px 5px 7px;
+}
+.index-list2{
+  padding: 1px 5px 7px;
+}
+
+.index-list3{
+  padding:1px 5px 7px ;
+}
+
+.index-list4{
+  padding:1px 5px 7px ;
+}
+
+.index-list5{
+  padding:1px 5px 7px ;
+}
+
+label{
+  font-size: 13px;
+}
+
+/*ここからindex-new________________________________________________*/
+
+.index-new{
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.index-new h2{
+  font-size: 19px;
+  margin: 16px 0 ;
+}
+
+.index-new h4{
+  font-size: 13px;
+}
+
+.index-new p{
+  width: 170px ;
+}
+
+/*ここからshow________________________________________________*/
+
+.show{
+  font-family: verdana, arial, helvetica, sans-serif;
+  margin-left: 33px;
+}
+
+.show p{
+  font-size: 13px;
+  margin: 33px;
+}
+
+.show strong{
+  margin: 0 10px 0 0 ;
+}
+
+/*ここからedit________________________________________________*/
+
+.edit{
+  font-family: verdana, arial, helvetica, sans-serif;
+  margin: 33px;
+}
+
+.edit h1{
+  font-size: 26px;
+  margin: 17px 0 ;
+}
+
+.edit h4 {
+  font-size: 13px ;
+}
+
+.edit-item{
+  margin: 0 0 10px ;
+}
+
+.edit-item2{
+  margin: 0 0 10px ;
+}
+
+.edit-item3{
+  margin: 0 0 10px ;
+}
