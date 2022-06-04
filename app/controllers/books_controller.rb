@@ -15,11 +15,8 @@ class BooksController < ApplicationController
     end
   end
 
-
-
   def show
     @book = Book.find(params[:id])
-
   end
 
   def edit
@@ -31,12 +28,11 @@ class BooksController < ApplicationController
     if @book.update(book_params)
       flash[:notice] = 'Book was successfully updated.'
     redirect_to book_path(@book.id)
-  else
+    else
     @books = Book.all
     render "edit"
+    end
   end
-  end
-
 
   def destroy
     book = Book.find(params[:id])
@@ -44,7 +40,9 @@ class BooksController < ApplicationController
     redirect_to '/books'
   end
 
+
   private
+
 
   def book_params
     params.require(:book).permit(:title, :body)
